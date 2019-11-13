@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+        * {
+            font-family: "Helvetica Neue";
+        }
+        p, text {
+            font-size: 0.85em;
+        }
+        svg {
+            background: #f1f1f1;
+        }
+
+        div.tooltip { 
+            color: white;
+            position: absolute;     
+            text-align: left;     
+            width: 130px;         
+            height: 040px;          
+            padding: 2px;       
+            font: 10px sans-serif;    
+            background: #333; 
+            border: 1px solid lightgrey;    
+            border-radius: 5px; 
+            visibility: hidden;
+            pointer-events: none;     
+        }
+        #leftbox { 
+                float:left;  
+                width:85%; 
+            } 
+        #rightbox{ 
+                float:right; 
+                width:15%; 
+            } 
+        </style>
+    
+    <style type='text/css'>
+      .my-legend .legend-title {
+        text-align: left;
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size: 300%;
+        }
+      .my-legend .legend-scale ul {
+        margin: 0;
+        margin-bottom: 5px;
+        padding: 0;
+        float: left;
+        margin-top: 50px;
+        list-style: none;
+        }
+      .my-legend .legend-scale ul li {
+        font-size: 100%;
+        list-style: none;
+        margin-left: 10px;
+        line-height: 18px;
+        margin-bottom: 12px;
+        }
+      .my-legend ul.legend-labels li span {
+        display: block;
+        float: left;
+        height: 16px;
+        width: 30px;
+        margin-left: 5px;
+        margin-left: 0;
+        border: 1px solid #999;
+        }
+      .my-legend .legend-source {
+        font-size: 70%;
+        color: #999;
+        clear: both;
+        }
+      .my-legend a {
+        color: #777;
+        }
+    </style>
+
+    </head>
+    <body>
+            <div id="rightbox" class='my-legend'>
+                    <div class='legend-title'>AirBnB NEW YORK DATA</div>
+                    <div class='legend-scale'>
+                      <ul class='legend-labels'>
+                        <li><span style='background:#ff7f0e;'></span>Shared room</li>
+                        <li><span style='background:#7f7f7f;'></span>Entire home/apt</li>
+                        <li><span style='background:#17becf;'></span>Private room</li>
+                      </ul>
+                    </div>
+                    </div>
+    
+        <div id="chart" style="width: 10px; float:left; height:10px"></div>
+        <button id="byNeighbourhood">By Neighbourhood</button>
+        <button id="byNights">By Minimum Nights</button>
+        <button id="combineAll">All Listings</button>
+        <script type="text/javascript" src="https://d3js.org/d3.v4.js"></script>
+        <script type="text/javascript" src="javascripts/d3.geom.js"></script>
+        <script type="text/javascript" src="javascripts/d3.layout.js"></script>
+        <script type="text/javascript" src="javascripts/CodeFlower.js"></script>
+        <script src="https://d3js.org/d3-queue.v3.min.js"></script>
+        <script type="text/javascript">
+         (function() {
+    var width = 1200,
+        height = 775,
+        strength_force = 0.15,
+        repel_force = -30,
+        alpha = 0.07;
+    
+    var vis = d3.select("#chart")
+        .append("svg")
+        .attr("height", height)
+        .attr("width", width)
+        .append("g")
+        .attr("transform", "translate(0,0)")
+    
+    var radiusScale  = d3.scaleSqrt().domain([1,3139]).range([7,60]);
+    var color_scale = d3.scaleOrdinal().domain(["Shared room", "Entire home/apt", "Private room"]).range(["#ff7f0e", "#7f7f7f", "#17becf"]);
+    
+    var forceXhood = d3.forceX(function (d) {
+        if (d.neighbourhood_group == "Manhattan") {
+            return width / 4            
+        } else if (d.neighbourhood_group == "Brooklyn") {
+            return 3 * (width / 4)            
+        } else if (d.neighbourhood_group == "Staten Island") {
+            return width / 4
+        } else if (d.neighbourhood_group == "Queens") {
+            return  width / 2
+        } else {
+            return 3 * (width / 4) 
+        }
+    }).strength(strength_force)
+
+    var forceYhood = d3.forceY(function (d) {
+        if (d.neighbourhood_group == "Manhattan") {
+            return 300            
+        } else if (d.neighbourhood_group == "Brooklyn") {
+            return 300           
+        } else if (d.neighbourhood_group == "Queens") {
+            return 525
+        } else if (d.neighbourhood_group == "Bronx") {
+            return 575
+        } else {
+            return 575
+        }                        
+    }).strength(strength_force)
+
+    var forceXnights = d3.forceX(function (d) {
+        if (d.minimum_nights <= 7) {
+            return (width / 4) + 30            
+        } else if (d.minimum_nights > 7 && d.minimum_nights <= 14) {
+            return width / 2 + 25            
+        } else if (d.minimum_nights > 14 && d.minimum_nights <= 30) {
+            return 3*(width / 4) + 25
+        } else if (d.minimum_nights > 30 && d.minimum_nights <= 90) {
+            return width / 2 + 25            
+        } else if (d.minimum_nights > 90 && d.minimum_nights <= 180) {
+            return width / 4            
+        } else {
+            return 3*(width / 4) + 25
+        }
+    }).strength(strength_force)
+
+    var forceYnights = d3.forceY(function (d) {
+        if (d.minimum_nights <= 7) {
+            return 325            
+        } else if (d.minimum_nights > 7 && d.minimum_nights <= 14) {
+            return 300            
+        } else if (d.minimum_nights > 14 && d.minimum_nights <= 30) {
+            return 300
+        } else if (d.minimum_nights > 30 && d.minimum_nights <= 90) {
+            return 500
+        } else if (d.minimum_nights > 90 && d.minimum_nights <= 180) {
+            return 600
+        } else {
+            return 500 
+        }                    
+    }).strength(strength_force)
+
+    var forceYcombine = d3.forceY(function (d) {
+        return (height / 2)+20            
+    }).strength(strength_force)
+
+    var forceXcombine = d3.forceX(function (d) {
+        return width / 2            
+    }).strength(strength_force)
+
+    var forceCollide = d3.forceCollide(function(d) {
+                                return radiusScale(d.room_type_count) + 1
+    })
+
+    //var forceRepel = d3.forceManyBody(function(d) {
+    //                            return repel_force
+    //})
+    var forceRepel = d3.forceManyBody().strength(repel_force)
+
+    var forceCenterBody = d3.forceCenter(width / 2, height / 2)
+
+    var simulation = d3.forceSimulation()
+                       .force("x", forceXcombine)
+                       .force("y", forceYcombine)
+                       .force("collide", forceCollide)
+                       .force("repel", forceRepel)
+
+    // Define 'div' for tooltips
+    var div = d3.select("body") 
+        .append("div")  // declare the tooltip div 
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+        //.text("a simple tooltip");
+
+    d3.queue()
+        .defer(d3.csv, "data/data_neighbours_nights.csv")
+        .await(ready)
+    
+    function ready (error, datapoints) {
+        var circles = vis.selectAll(".circles")
+                                .data(datapoints)
+                            .enter().append("circle")
+                                .attr("class", "circles")
+                            .attr("r", function(d){
+                                return radiusScale(d.room_type_count)
+                            })
+                            //.attr("fill", "lightblue")
+                            .style("fill", function(d) { 
+                                return color_scale(d.room_type);
+                            })
+                            .on("mouseover", function(d) {
+                                div.transition()
+                                    .duration(100)    
+                                    .style("visibility", "visible")
+                                    .style("opacity", 0.9);
+                                div.html(
+                                        d.neighbourhood_group +"<br/>"+
+                                        d.room_type   +"<br/>"+
+                                        "Minimum Nights: " +d.minimum_nights
+                                        )
+                                        .style("left", (d3.event.pageX) + "px")             
+                                        .style("top", (d3.event.pageY - 28) + "px");
+                                    })
+                            .on("mouseout", function(){return div.style("visibility", "hidden");})
+            
+        display_groups = function() {
+            var nights, nights_data, nights_x, nights_y;
+            nights_x = {
+                "By Minimum Nights" : (width / 2) + 25,
+                "Week (1-7 Days)":  (width / 4) - 20,
+                "BiWeekly (7-14 Days)": (width / 2) + 25,
+                "Monthly (upto 30 Days)": 3*(width / 4) + 90,
+                "Quarterly (upto 90 Days)":  (width / 2) + 25,
+                "Half-yearly (upto 180 Days)": (width / 4) - 20,
+                "Other (6 months +)": 3*(width / 4) + 100
+            };
+            nights_y = {
+                "By Minimum Nights" : 40,
+                "Week (1-7 Days)": (height / 9) - 10,
+                "BiWeekly (7-14 Days)": (height / 9) - 10,
+                "Monthly (upto 30 Days)": (height / 9) - 10,
+                "Quarterly (upto 90 Days)": (height / 2) + 40,
+                "Half-yearly (upto 180 Days)": 3*(height / 4) + 35,
+                "Other (6 months +)": 2*(height / 3) - 30
+            };
+            nights_data = d3.keys(nights_x);
+            nights = vis.selectAll(".nights").data(nights_data);
+            return nights
+            .enter().append("text")
+            .attr("class", "nights")
+            .attr("font-weight",900)
+            .attr("x", (function(_this) {
+                return function(d) {
+                return nights_x[d];
+                };
+            })(this))
+            .attr("y", (function(_this) {
+                return function(d) {
+                return nights_y[d];
+                };
+            })(this))
+            .attr("text-anchor", "middle").text(function(d) {
+                return d;
+            });
+            };
+
+        display_hoods = function() {
+            var hoods, hoods_data, hoods_x, hoods_y;
+            hoods_x = {
+                "By Neighbourhood" : (width / 2),
+                "Manhattan":  (width / 4) - 30,
+                "Brooklyn": 3*(width / 4) + 90,
+                "Staten Island": (width / 4) - 30,
+                "Queens":  (width / 2) + 25,
+                "Bronx": 3*(width / 4) + 90
+            };
+            hoods_y = {
+                "By Neighbourhood" : 40,
+                "Manhattan":  (height / 9) - 10,
+                "Brooklyn": (height / 9) - 10,
+                "Staten Island": 3*(height / 4),
+                "Queens":  (height / 2) + 15,
+                "Bronx": 3*(height / 4) - 15
+            };
+            hoods_data = d3.keys(hoods_x);
+            hoods = vis.selectAll(".hoods").data(hoods_data);
+            return hoods
+            .enter().append("text")
+            .attr("class", "hoods")
+            .attr("font-weight",900)
+            .attr("x", (function(_this) {
+                return function(d) {
+                return hoods_x[d];
+                };
+            })(this))
+            .attr("y", (function(_this) {
+                return function(d) {
+                return hoods_y[d];
+                };
+            })(this))
+            .attr("text-anchor", "middle").text(function(d) {
+                return d;
+            });
+            };
+        
+        display_combine = function() {
+            var combine, combine_data, combine_x, combine_y;
+            combine_x = {
+                "Combine All" : (width / 2)
+            };
+            combine_y = {
+                "Combine All" : 40
+            };
+            combine_data = d3.keys(combine_x);
+            combine = vis.selectAll(".combine").data(combine_data);
+            return combine
+            .enter().append("text")
+            .attr("class", "combine")
+            .attr("font-weight",900)
+            .attr("x", (function(_this) {
+                return function(d) {
+                return combine_x[d];
+                };
+            })(this))
+            .attr("y", (function(_this) {
+                return function(d) {
+                return combine_y[d];
+                };
+            })(this))
+            .attr("text-anchor", "middle").text(function(d) {
+                return d;
+            });
+            };
+    
+        d3.select("#byNeighbourhood").on('click', function(d) {
+            vis.selectAll(".nights").remove();
+            vis.selectAll(".combine").remove();
+            display_hoods();
+
+            simulation
+                .force("x", forceXhood)
+                .force("y", forceYhood)
+                .force("collide", forceCollide)
+                .force("repel", forceRepel)
+                .alphaTarget(alpha)
+                .restart()
+        })
+
+        d3.select("#byNights").on('click', function(d) {
+            vis.selectAll(".hoods").remove();
+            vis.selectAll(".combine").remove();
+            display_groups();
+
+            simulation
+                .force("x", forceXnights)
+                .force("y", forceYnights)
+                .force("collide", forceCollide)
+                .force("repel", forceRepel)
+                .alphaTarget(alpha)
+                .restart()
+        })
+
+        d3.select("#combineAll").on('click', function(d) {
+            vis.selectAll(".nights").remove();
+            vis.selectAll(".hoods").remove();
+            display_combine();
+
+            simulation
+                .force("x", forceXcombine)
+                .force("y", forceYcombine)
+                .force("collide", forceCollide)
+                .force("repel", forceRepel)
+                //.force("bringCenter", forceCenterBody)
+                .alphaTarget(alpha)
+                .restart()
+        })
+
+        simulation.nodes(datapoints)
+            .on('tick', ticked)
+
+        function ticked(){
+            circles.attr("cx", function(d){
+                            return d.x
+                        })
+                    .attr("cy", function(d){
+                            return d.y
+                        })
+                    
+        }
+
+        
+
+    }
+
+})();
+          </script>
+
+        </body>
+</html>

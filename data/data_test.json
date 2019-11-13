@@ -1,0 +1,3295 @@
+{
+   "name": "AirBNB_NewYork", 
+   "children": [
+      {
+         "name": "Bronx", 
+         "children": [
+            {
+               "name": "Allerton", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "16"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "26"
+                  }
+               ]
+            }, 
+            {
+               "name": "Baychester", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "4"
+                  }
+               ]
+            }, 
+            {
+               "name": "Belmont", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "19"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Bronxdale", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "8"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "10"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Castle Hill", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "4"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "5"
+                  }
+               ]
+            }, 
+            {
+               "name": "City Island", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "11"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "7"
+                  }
+               ]
+            }, 
+            {
+               "name": "Claremont Village", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "8"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "20"
+                  }
+               ]
+            }, 
+            {
+               "name": "Clason Point", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "8"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "11"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Co-op City", 
+               "children": [
+                  {
+                     "name": "Private room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Concourse", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "20"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "30"
+                  }
+               ]
+            }, 
+            {
+               "name": "Concourse Village", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "9"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "21"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "East Morrisania", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "7"
+                  }
+               ]
+            }, 
+            {
+               "name": "Eastchester", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "6"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "6"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Edenwald", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "6"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "7"
+                  }
+               ]
+            }, 
+            {
+               "name": "Fieldston", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "4"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "7"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Fordham", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "13"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "46"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "4"
+                  }
+               ]
+            }, 
+            {
+               "name": "Highbridge", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "7"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "20"
+                  }
+               ]
+            }, 
+            {
+               "name": "Hunts Point", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "17"
+                  }
+               ]
+            }, 
+            {
+               "name": "Kingsbridge", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "18"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "49"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Longwood", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "20"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "41"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Melrose", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "6"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "4"
+                  }
+               ]
+            }, 
+            {
+               "name": "Morris Heights", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "4"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "12"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Morris Park", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "4"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "10"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Morrisania", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "5"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "10"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Mott Haven", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "27"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "33"
+                  }
+               ]
+            }, 
+            {
+               "name": "Mount Eden", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "5"
+                  }
+               ]
+            }, 
+            {
+               "name": "Mount Hope", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "10"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "10"
+                  }
+               ]
+            }, 
+            {
+               "name": "North Riverdale", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "7"
+                  }
+               ]
+            }, 
+            {
+               "name": "Norwood", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "6"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "24"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Olinville", 
+               "children": [
+                  {
+                     "name": "Private room", 
+                     "size": "2"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Parkchester", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "9"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "24"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "6"
+                  }
+               ]
+            }, 
+            {
+               "name": "Pelham Bay", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "12"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Pelham Gardens", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "17"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "10"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Port Morris", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "16"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "14"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "16"
+                  }
+               ]
+            }, 
+            {
+               "name": "Riverdale", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "6"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "4"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Schuylerville", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "9"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Soundview", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "5"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "10"
+                  }
+               ]
+            }, 
+            {
+               "name": "Spuyten Duyvil", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Throgs Neck", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "11"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "13"
+                  }
+               ]
+            }, 
+            {
+               "name": "Tremont", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "6"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Unionport", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "4"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "University Heights", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "5"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "15"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Van Nest", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "5"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Wakefield", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "18"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "31"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "West Farms", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Westchester Square", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "4"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "6"
+                  }
+               ]
+            }, 
+            {
+               "name": "Williamsbridge", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "19"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "21"
+                  }
+               ]
+            }, 
+            {
+               "name": "Woodlawn", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "4"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "6"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }
+         ]
+      }, 
+      {
+         "name": "Brooklyn", 
+         "children": [
+            {
+               "name": "Bath Beach", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "7"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "10"
+                  }
+               ]
+            }, 
+            {
+               "name": "Bay Ridge", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "70"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "65"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "6"
+                  }
+               ]
+            }, 
+            {
+               "name": "Bedford-Stuyvesant", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1591"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "2038"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "85"
+                  }
+               ]
+            }, 
+            {
+               "name": "Bensonhurst", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "30"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "43"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Bergen Beach", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "8"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Boerum Hill", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "136"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "40"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Borough Park", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "26"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "94"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "16"
+                  }
+               ]
+            }, 
+            {
+               "name": "Brighton Beach", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "35"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "33"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "7"
+                  }
+               ]
+            }, 
+            {
+               "name": "Brooklyn Heights", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "126"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "28"
+                  }
+               ]
+            }, 
+            {
+               "name": "Brownsville", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "19"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "42"
+                  }
+               ]
+            }, 
+            {
+               "name": "Bushwick", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "678"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "1719"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "68"
+                  }
+               ]
+            }, 
+            {
+               "name": "Canarsie", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "75"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "71"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Carroll Gardens", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "182"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "51"
+                  }
+               ]
+            }, 
+            {
+               "name": "Clinton Hill", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "346"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "217"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "9"
+                  }
+               ]
+            }, 
+            {
+               "name": "Cobble Hill", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "77"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "22"
+                  }
+               ]
+            }, 
+            {
+               "name": "Columbia St", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "33"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "9"
+                  }
+               ]
+            }, 
+            {
+               "name": "Coney Island", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "10"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "4"
+                  }
+               ]
+            }, 
+            {
+               "name": "Crown Heights", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "759"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "780"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "25"
+                  }
+               ]
+            }, 
+            {
+               "name": "Cypress Hills", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "53"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "75"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "7"
+                  }
+               ]
+            }, 
+            {
+               "name": "Downtown Brooklyn", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "52"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "31"
+                  }
+               ]
+            }, 
+            {
+               "name": "DUMBO", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "23"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "13"
+                  }
+               ]
+            }, 
+            {
+               "name": "Dyker Heights", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "7"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "4"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "East Flatbush", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "187"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "289"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "24"
+                  }
+               ]
+            }, 
+            {
+               "name": "East New York", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "93"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "120"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "5"
+                  }
+               ]
+            }, 
+            {
+               "name": "Flatbush", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "261"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "339"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "21"
+                  }
+               ]
+            }, 
+            {
+               "name": "Flatlands", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "37"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "44"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Fort Greene", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "307"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "174"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "8"
+                  }
+               ]
+            }, 
+            {
+               "name": "Fort Hamilton", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "29"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "23"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Gowanus", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "135"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "110"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Gravesend", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "26"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "28"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "14"
+                  }
+               ]
+            }, 
+            {
+               "name": "Greenpoint", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "622"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "476"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "17"
+                  }
+               ]
+            }, 
+            {
+               "name": "Kensington", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "73"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "98"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "4"
+                  }
+               ]
+            }, 
+            {
+               "name": "Manhattan Beach", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "6"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Midwood", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "49"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "53"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "7"
+                  }
+               ]
+            }, 
+            {
+               "name": "Mill Basin", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "4"
+                  }
+               ]
+            }, 
+            {
+               "name": "Navy Yard", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "10"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "4"
+                  }
+               ]
+            }, 
+            {
+               "name": "Park Slope", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "366"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "139"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Prospect Heights", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "214"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "143"
+                  }
+               ]
+            }, 
+            {
+               "name": "Prospect-Lefferts Gardens", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "281"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "242"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "12"
+                  }
+               ]
+            }, 
+            {
+               "name": "Red Hook", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "53"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "23"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Sea Gate", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "5"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Sheepshead Bay", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "59"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "86"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "19"
+                  }
+               ]
+            }, 
+            {
+               "name": "South Slope", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "190"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "93"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Sunset Park", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "180"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "205"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "5"
+                  }
+               ]
+            }, 
+            {
+               "name": "Vinegar Hill", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "23"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "10"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Williamsburg", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1891"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "1997"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "32"
+                  }
+               ]
+            }, 
+            {
+               "name": "Windsor Terrace", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "115"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "42"
+                  }
+               ]
+            }
+         ]
+      }, 
+      {
+         "name": "Manhattan", 
+         "children": [
+            {
+               "name": "Battery Park City", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "48"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "21"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Chelsea", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "820"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "278"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "15"
+                  }
+               ]
+            }, 
+            {
+               "name": "Chinatown", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "210"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "156"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Civic Center", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "35"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "17"
+                  }
+               ]
+            }, 
+            {
+               "name": "East Harlem", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "486"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "586"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "45"
+                  }
+               ]
+            }, 
+            {
+               "name": "East Village", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1170"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "660"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "23"
+                  }
+               ]
+            }, 
+            {
+               "name": "Financial District", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "572"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "162"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "10"
+                  }
+               ]
+            }, 
+            {
+               "name": "Flatiron District", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "65"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "15"
+                  }
+               ]
+            }, 
+            {
+               "name": "Gramercy", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "244"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "89"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "5"
+                  }
+               ]
+            }, 
+            {
+               "name": "Greenwich Village", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "291"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "99"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Harlem", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1036"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "1573"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "49"
+                  }
+               ]
+            }, 
+            {
+               "name": "Hell's Kitchen", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1187"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "672"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "99"
+                  }
+               ]
+            }, 
+            {
+               "name": "Inwood", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "103"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "145"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "4"
+                  }
+               ]
+            }, 
+            {
+               "name": "Kips Bay", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "340"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "112"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "18"
+                  }
+               ]
+            }, 
+            {
+               "name": "Little Italy", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "76"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "41"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "4"
+                  }
+               ]
+            }, 
+            {
+               "name": "Lower East Side", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "506"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "367"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "38"
+                  }
+               ]
+            }, 
+            {
+               "name": "Marble Hill", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "5"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "7"
+                  }
+               ]
+            }, 
+            {
+               "name": "Midtown", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1100"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "422"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "23"
+                  }
+               ]
+            }, 
+            {
+               "name": "Morningside Heights", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "150"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "192"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "4"
+                  }
+               ]
+            }, 
+            {
+               "name": "Murray Hill", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "399"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "76"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "10"
+                  }
+               ]
+            }, 
+            {
+               "name": "NoHo", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "71"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "7"
+                  }
+               ]
+            }, 
+            {
+               "name": "Nolita", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "165"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "85"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Roosevelt Island", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "19"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "55"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "SoHo", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "241"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "115"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Stuyvesant Town", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "12"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "24"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Theater District", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "164"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "122"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Tribeca", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "143"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "34"
+                  }
+               ]
+            }, 
+            {
+               "name": "Two Bridges", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "26"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "46"
+                  }
+               ]
+            }, 
+            {
+               "name": "Upper East Side", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1310"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "441"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "47"
+                  }
+               ]
+            }, 
+            {
+               "name": "Upper West Side", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1256"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "675"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "40"
+                  }
+               ]
+            }, 
+            {
+               "name": "Washington Heights", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "296"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "576"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "27"
+                  }
+               ]
+            }, 
+            {
+               "name": "West Village", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "653"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "112"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "3"
+                  }
+               ]
+            }
+         ]
+      }, 
+      {
+         "name": "Queens", 
+         "children": [
+            {
+               "name": "Arverne", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "48"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "27"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Astoria", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "381"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "494"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "25"
+                  }
+               ]
+            }, 
+            {
+               "name": "Bay Terrace", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "2"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Bayside", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "13"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "26"
+                  }
+               ]
+            }, 
+            {
+               "name": "Bayswater", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "5"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "12"
+                  }
+               ]
+            }, 
+            {
+               "name": "Belle Harbor", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "5"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Bellerose", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "10"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Breezy Point", 
+               "children": [
+                  {
+                     "name": "Private room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Briarwood", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "18"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "35"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Cambria Heights", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "4"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "22"
+                  }
+               ]
+            }, 
+            {
+               "name": "College Point", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "10"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "9"
+                  }
+               ]
+            }, 
+            {
+               "name": "Corona", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "13"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "27"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "24"
+                  }
+               ]
+            }, 
+            {
+               "name": "Ditmars Steinway", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "121"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "186"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Douglaston", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "5"
+                  }
+               ]
+            }, 
+            {
+               "name": "East Elmhurst", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "53"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "126"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "6"
+                  }
+               ]
+            }, 
+            {
+               "name": "Edgemere", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "4"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "7"
+                  }
+               ]
+            }, 
+            {
+               "name": "Elmhurst", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "58"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "171"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "8"
+                  }
+               ]
+            }, 
+            {
+               "name": "Far Rockaway", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "12"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "17"
+                  }
+               ]
+            }, 
+            {
+               "name": "Flushing", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "106"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "307"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "13"
+                  }
+               ]
+            }, 
+            {
+               "name": "Forest Hills", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "61"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "75"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "8"
+                  }
+               ]
+            }, 
+            {
+               "name": "Fresh Meadows", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "14"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "18"
+                  }
+               ]
+            }, 
+            {
+               "name": "Glendale", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "26"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "28"
+                  }
+               ]
+            }, 
+            {
+               "name": "Hollis", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "4"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "9"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Holliswood", 
+               "children": [
+                  {
+                     "name": "Private room", 
+                     "size": "4"
+                  }
+               ]
+            }, 
+            {
+               "name": "Howard Beach", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "11"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "9"
+                  }
+               ]
+            }, 
+            {
+               "name": "Jackson Heights", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "58"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "114"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "14"
+                  }
+               ]
+            }, 
+            {
+               "name": "Jamaica", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "80"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "145"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "6"
+                  }
+               ]
+            }, 
+            {
+               "name": "Jamaica Estates", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "15"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "4"
+                  }
+               ]
+            }, 
+            {
+               "name": "Jamaica Hills", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "5"
+                  }
+               ]
+            }, 
+            {
+               "name": "Kew Gardens", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "8"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "21"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Kew Gardens Hills", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "17"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "9"
+                  }
+               ]
+            }, 
+            {
+               "name": "Laurelton", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "9"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "9"
+                  }
+               ]
+            }, 
+            {
+               "name": "Little Neck", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Long Island City", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "240"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "283"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "14"
+                  }
+               ]
+            }, 
+            {
+               "name": "Maspeth", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "44"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "63"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Middle Village", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "21"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "10"
+                  }
+               ]
+            }, 
+            {
+               "name": "Neponsit", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Ozone Park", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "33"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "26"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Queens Village", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "33"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "25"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Rego Park", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "40"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "59"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "7"
+                  }
+               ]
+            }, 
+            {
+               "name": "Richmond Hill", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "33"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "57"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "4"
+                  }
+               ]
+            }, 
+            {
+               "name": "Ridgewood", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "129"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "284"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "10"
+                  }
+               ]
+            }, 
+            {
+               "name": "Rockaway Beach", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "42"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "14"
+                  }
+               ]
+            }, 
+            {
+               "name": "Rosedale", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "16"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "43"
+                  }
+               ]
+            }, 
+            {
+               "name": "South Ozone Park", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "14"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "18"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "8"
+                  }
+               ]
+            }, 
+            {
+               "name": "Springfield Gardens", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "33"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "51"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "St. Albans", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "27"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "49"
+                  }
+               ]
+            }, 
+            {
+               "name": "Sunnyside", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "135"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "203"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "25"
+                  }
+               ]
+            }, 
+            {
+               "name": "Whitestone", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "8"
+                  }
+               ]
+            }, 
+            {
+               "name": "Woodhaven", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "20"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "66"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Woodside", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "63"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "171"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }
+         ]
+      }, 
+      {
+         "name": "Staten Island", 
+         "children": [
+            {
+               "name": "Arden Heights", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Arrochar", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "10"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "11"
+                  }
+               ]
+            }, 
+            {
+               "name": "Bay Terrace, Staten Island", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Bull's Head", 
+               "children": [
+                  {
+                     "name": "Private room", 
+                     "size": "6"
+                  }
+               ]
+            }, 
+            {
+               "name": "Castleton Corners", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "2"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Clifton", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "8"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "4"
+                  }
+               ]
+            }, 
+            {
+               "name": "Concord", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "4"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "19"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Dongan Hills", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "4"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Eltingville", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "2"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Emerson Hill", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "2"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Fort Wadsworth", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Graniteville", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "2"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Grant City", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "4"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Great Kills", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "5"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "5"
+                  }
+               ]
+            }, 
+            {
+               "name": "Grymes Hill", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "6"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Howland Hook", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Huguenot", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Lighthouse Hill", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Mariners Harbor", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "5"
+                  }
+               ]
+            }, 
+            {
+               "name": "Midland Beach", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "5"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "New Brighton", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "4"
+                  }
+               ]
+            }, 
+            {
+               "name": "New Dorp", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "New Dorp Beach", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "2"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "New Springville", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "4"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "4"
+                  }
+               ]
+            }, 
+            {
+               "name": "Oakwood", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "2"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Port Richmond", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "6"
+                  }
+               ]
+            }, 
+            {
+               "name": "Prince's Bay", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Randall Manor", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "9"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "9"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Richmondtown", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Rosebank", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "5"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "Rossville", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Shore Acres", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "4"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "3"
+                  }
+               ]
+            }, 
+            {
+               "name": "Silver Lake", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "South Beach", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "6"
+                  }, 
+                  {
+                     "name": "Shared room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "St. George", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "27"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "21"
+                  }
+               ]
+            }, 
+            {
+               "name": "Stapleton", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "10"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "17"
+                  }
+               ]
+            }, 
+            {
+               "name": "Todt Hill", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "3"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Tompkinsville", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "15"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "27"
+                  }
+               ]
+            }, 
+            {
+               "name": "Tottenville", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "5"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "2"
+                  }
+               ]
+            }, 
+            {
+               "name": "West Brighton", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "5"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "13"
+                  }
+               ]
+            }, 
+            {
+               "name": "Westerleigh", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1"
+                  }, 
+                  {
+                     "name": "Private room", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Willowbrook", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1"
+                  }
+               ]
+            }, 
+            {
+               "name": "Woodrow", 
+               "children": [
+                  {
+                     "name": "Entire home/apt", 
+                     "size": "1"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
